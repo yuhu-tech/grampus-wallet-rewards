@@ -48,7 +48,7 @@ class App extends Component {
       isGetCode: false,
       count: 60,
       scheme: '',
-      download_url: 'https://assets.yuhu.tech/download-app',
+      download_url: 'http://assets.dusd.com/download-app',
       timeout: 2000,
       userid: ''
     }
@@ -60,7 +60,7 @@ class App extends Component {
       alert('请点击右上角按钮，然后选择浏览器中打开')
       return;
     } 
-    let scheme = `grampus://open?type=2&userid=${this.getUrlParam("userid")}`
+    let scheme = `dusd://open?type=2&userid=${this.getUrlParam("userid")}`
     this.setState({
       scheme: scheme,
       userid: this.getUrlParam("userid")
