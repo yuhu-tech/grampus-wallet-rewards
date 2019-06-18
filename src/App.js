@@ -293,7 +293,7 @@ class App extends Component {
         {this._getCodeDom()}
         {this._codeDom()}
         {this._btnDom()}
-        <div className="support">yuhu.tech</div>
+        {/* <div className="support">yuhu.tech</div> */}
       </div>
     );
   }
